@@ -1,4 +1,4 @@
-CC = g++
+CC ?= g++
 
 all: main.o Game.o
 	$(CC) -o main main.o Game.o
